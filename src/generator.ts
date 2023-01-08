@@ -54,7 +54,7 @@ generatorHandler({
       await writeFile(path, content)
         .catch((e) => console.log(e.message))
     } else {
-      console.log("please use 'allInOnePath', other ways is developing...")
+      console.log("please use 'allInOnePath: foldername-foldername...-filename', other ways is developing...")
     }
   },
 })

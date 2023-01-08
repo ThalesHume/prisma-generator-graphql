@@ -1,7 +1,7 @@
 {
   "name": "prisma-generator-graphql",
-  "description": "Provide a description about your generator",
-  "version": "0.0.1",
+  "description": "This prisma generator is used to generate *.graphql file.",
+  "version": "0.0.2",
   "main": "dist/generator.js",
   "license": "MIT",
   "bin": {
@@ -34,15 +34,17 @@
     "ts-jest": "27.1.4",
     "typescript": "4.6.2"
   },
-  "homepage": "Link to homepage or github readme here",
+  "homepage": "https://github.com/ThalesHume/prisma-generator-graphql#README.md",
   "repository": {
     "type": "git",
-    "url": "Repo link here"
+    "url": "https://github.com/ThalesHume/prisma-generator-graphql"
   },
-  "author": "Your Name <Your Email>",
+  "author": "Thales Hume",
   "keywords": [
     "prisma",
     "prisma2",
-    "generator"
+    "generator",
+    "graphql",
+    "nestjs"
   ]
 }
