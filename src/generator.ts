@@ -2,7 +2,7 @@ import {
   DMMF,
   generatorHandler,
   GeneratorOptions,
-} from '@prisma/generator-helper"
+} from '@prisma/generator-helper'
 import { logger } from '@prisma/sdk'
 import { GENERATOR_NAME } from './constants'
 
@@ -123,6 +123,7 @@ generatorHandler({
     }
   },
   onGenerate: async (options: GeneratorOptions) => {
+    console.log(options)
     const modelStrs: string[] = []
     const enumStrs: string[] = []
     options.dmmf.datamodel.models.forEach((m) => {

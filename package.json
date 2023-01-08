@@ -5,7 +5,7 @@
   "main": "dist/generator.js",
   "license": "MIT",
   "bin": {
-    "prisma-generator-nestjs-graphql": "dist/bin.js"
+    "prisma-generator-graphql": "dist/bin.js"
   },
   "engines": {
     "node": ">=14.0"
@@ -13,7 +13,7 @@
   "scripts": {
     "start": "node dist/bin.js",
     "dev": "tsc -w",
-    "build": "tsc",
+    "build": "rimraf ./dist && tsc",
     "prepack": "yarn build",
     "test": "jest"
   },
@@ -30,6 +30,7 @@
     "@types/prettier": "2.4.2",
     "jest": "27.4.7",
     "prisma": "3.12.0",
+    "rimraf": "^3.0.2",
     "ts-jest": "27.1.4",
     "typescript": "4.6.2"
   },
