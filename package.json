@@ -1,5 +1,5 @@
 {
-  "name": "prisma-generator-nestjs-graphql",
+  "name": "prisma-generator-graphql",
   "description": "Provide a description about your generator",
   "version": "1.0.0",
   "main": "dist/generator.js",
@@ -12,8 +12,8 @@
   },
   "scripts": {
     "start": "node dist/bin.js",
-    "dev": "npx tsc -w",
-    "build": "npx tsc",
+    "dev": "tsc -w",
+    "build": "tsc",
     "prepack": "yarn build",
     "test": "jest"
   },
