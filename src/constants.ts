@@ -1,1 +1,1 @@
-export const GENERATOR_NAME = 'prisma-generator-nestjs-graphql'
+export const GENERATOR_NAME = 'prisma-generator-graphql'
