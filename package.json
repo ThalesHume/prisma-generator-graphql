@@ -1,7 +1,7 @@
 {
   "name": "prisma-generator-graphql",
   "description": "This prisma generator is used to generate *.graphql file.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/generator.js",
   "license": "MIT",
   "bin": {

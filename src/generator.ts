@@ -36,7 +36,6 @@ generatorHandler({
     options.dmmf.datamodel.enums.forEach(
       (v) => (enumStrs[v.name] = { content: converEnumText(v) }),
     )
-      console.log(JSON.stringify(options.dmmf.schema.inputObjectTypes.prisma[0]))
     // const InputStrs: ConverContent = {}
     // options.dmmf.datamodel.types.forEach((v) => console.log(v))
 
